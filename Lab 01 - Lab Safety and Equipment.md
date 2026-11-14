@@ -91,59 +91,63 @@ The first three color bands are arranged as follows: the first band, the second 
 
 You can use the mnemonic device to help you remember: 
 
-    Black birds run over your garden but vegetables grow wonderfully.
+> Black birds run over your garden but vegetables grow wonderfully.
 
-The most significant digit of our resistor value is represented by first band, while the least significant is represented by the second band. We then multiply this value by ten raised to the power of the multiplier band. That means that for a resistor colored orange - blue - brown, the nominal resistance is
+The most significant digit of our resistor value is represented by first band, while the least significant is represented by the second band. We then multiply this value by ten raised to the power of the multiplier band. That means that for a resistor colored orange - blue - brown, the nominal resistance is $36 \times 10^1=360 \text{ }\Omega$.
 
-$36 \times 10^1=360 \text{ }\Omega$
+Five-band resistors are similar, except that the first three bands represent the three significant digits of the resistor value. The fourth band represents the multiplier. In addition to the values from the above table, the multiplier band can also be gold or silver, which represent $0.1$ and $0.01$, respectively.
 
-Five-band resistors are similar, except that the first three bands represent the three significant digits of the resistor value. The fourth band represents the multiplier. In addition to the values from the above table, the multiplier band can also be gold or silver, which represent 0.1 and 0.01, respectively.
+| Value | Color |
+| :---: | :---: |
+| $0.1$ | Gold |
+| $0.01$ | Silver |
 
-Value	Color
-0.1	Gold
-0.01	Silver
-Table 3. Extra multiplier color bands and their corresponding values.
-Resistance Tolerances
+<table></caption>Table 3. Extra multiplier color bands and their corresponding values.</caption></table>
+
+### Resistance Tolerances
 
 Resistors are never manufactured to exact values—it would be too expensive. Instead, the manufacturer guarantees that a resistor value will fall within the tolerance range specified by the last band, called the tolerance band. A resistor with a gold band for the tolerance will be guaranteed to fall within 5% of the nominal value. The table of tolerance colors is given below.
 
-Tolerance	Color
-1%	Brown
-2%	Red
-5%	Gold
-10%	Silver
-Table 4. Resistor color bands and their corresponding tolerance values.
+| Tolerance | Color |
+| :---:| :---: |
+| 1% | Brown |
+| 2% | Red |
+| 5% | Gold |
+| 10% | Silver |
+
+<table><caption> Table 4. Resistor color bands and their corresponding tolerance values.</caption></table>
+
 The formula to calculate the minimum and maximum values for a given resistor color code is given below. The true resistance value should fall within this range.
 
-"minimum value"="nominal value"×(1-"tolerance,in %" /100)
+<center>$\text{minimumum value} = \text{nominal value} \times (1-\frac{\text{tolerance, in }\%}{100})$</center>
 
-"maximum value"="nominal value"×(1+"tolerance,in %" /100)
+$\text{minimumum value} = \text{nominal value} \times (1+\frac{\text{tolerance, in }\%}{100})$
 
-Summary
+### Summary
 
 You can use the following image to help you determine the nominal value of your resistor
 
 
  ’
-Complete Activity 2: Identifying Resistor and Resistor Color Codes
+#### Complete Activity 2: Identifying Resistor and Resistor Color Codes
 
-At Home Use: Installing Software
+## At Home Use: Installing Software
 
 If you would like to work on your laboratory assignments at home, you may wish to install the following software on your personal laptop or desktop. The listed software is compatible with Linux, Mac, and Windows.
 
-Waveforms for Digilent Analog Discovery 3
+### Waveforms for Digilent Analog Discovery 3
 
 To operate the Digilent Analog Discovery 3, you will need to install Waveforms, which is compatible with Linux, Mac, Windows, and ARM. 
 
 Get the software here: Waveforms 
 
-Fritzing
+### Fritzing
 
 Fritzing is a great way to help you convert bread board prototypes into circuit diagram schematics. You can even use it to create vias for printed circuit boards! Fritzing is compatible with Linux, Mac, and Windows.
 
 Get the software here: Fritzing 
 
-No activities to complete, however you may consider installing the above software.
+#### No activities to complete, however you may consider installing the above software.
 
 Breadboard Basics
 
