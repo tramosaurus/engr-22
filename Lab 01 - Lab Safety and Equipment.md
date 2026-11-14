@@ -21,6 +21,7 @@ While the circuits we’re going to be building in this class are all designed t
 
 Electricity can cause fatal burns or cause vital organs to malfunction. It all depends on how much, how long, and where. In general, a current of 5 mA or less will cause a sensation of shock, but rarely any damage. Larger currents can cause hand muscles to contract. Currents on the order of 100 mA are often fatal if they pass through the body for even a few seconds. The chart below shows the general relationship between the degree of injury and amount of current for a 60-cycle hand-to-foot path of one second's duration of shock.
 
+<div align="center">
 | Current (mA) | Reaction |
 | :---: | --- |
 | 1	| Perception level |
@@ -31,6 +32,7 @@ Electricity can cause fatal burns or cause vital organs to malfunction. It all d
 | 10,000+ | Cardiac arrest, severe burns, and probable death |
 
 <table><caption>Table 1. Effects of a range of electrical current passing through the human body.</table></caption>
+</div>
 
 ### Is it Safe to Touch?
 
@@ -74,6 +76,7 @@ To figure out the resistance value of a four-band resistor, start by finding the
 
 The first three color bands are arranged as follows: the first band, the second band, and the multiplier band. For these three bands, each color represents a different value, which can be found in the chart below. (The final column represents a mnemonic device to help you remember.)
 
+<div align="center">
 | Value | Color | Word |
 | :---: | :---: | :---: |
 | 0 | Black | Black |
@@ -88,21 +91,28 @@ The first three color bands are arranged as follows: the first band, the second 
 | 9 | White | Wonderfully |
 
 <table><caption>Table 2. Resistor color and the corresponding value.</caption></table>
+</div>
 
 You can use the mnemonic device to help you remember: 
 
 > Black birds run over your garden but vegetables grow wonderfully.
 
-The most significant digit of our resistor value is represented by first band, while the least significant is represented by the second band. We then multiply this value by ten raised to the power of the multiplier band. That means that for a resistor colored orange - blue - brown, the nominal resistance is $36 \times 10^1=360 \text{ }\Omega$.
+The most significant digit of our resistor value is represented by first band, while the least significant is represented by the second band. We then multiply this value by ten raised to the power of the multiplier band. That means that for a resistor colored orange - blue - brown, the nominal resistance is 
+
+<p align="center">
+$36 \times 10^1=360 \text{ }\Omega$
+</p>
 
 Five-band resistors are similar, except that the first three bands represent the three significant digits of the resistor value. The fourth band represents the multiplier. In addition to the values from the above table, the multiplier band can also be gold or silver, which represent $0.1$ and $0.01$, respectively.
 
+<div align="center">
 | Value | Color |
 | :---: | :---: |
-| $0.1$ | Gold |
-| $0.01$ | Silver |
+| 0.1 | Gold |
+| 0.01 | Silver |
 
 <table></caption>Table 3. Extra multiplier color bands and their corresponding values.</caption></table>
+</div>
 
 ### Resistance Tolerances
 
@@ -123,7 +133,9 @@ The formula to calculate the minimum and maximum values for a given resistor col
 $\text{minimumum value} = \text{nominal value} \times (1-\frac{\text{tolerance, in }\%}{100})$
 </p>
 
+<p align="center">
 $\text{minimumum value} = \text{nominal value} \times (1+\frac{\text{tolerance, in }\%}{100})$
+</p>
 
 ### Summary
 
@@ -151,12 +163,12 @@ Get the software here: Fritzing
 
 #### No activities to complete, however you may consider installing the above software.
 
-Breadboard Basics
+## Breadboard Basics
 
-Watch the following video on breadboarding basics:
-Breadboard Basics[d1.1]
+[![Watch the video on breadboarding basics:
+Breadboard Basics](https://youtu.be/6WReFkfrUIk)](https://youtu.be/6WReFkfrUIk)
 
-How a Breadboard is Constructed
+### How a Breadboard is Constructed
 
 Breadboards are a great tool for prototyping electronics projects, and is a necessary tool for electronics design. The original breadboards were originally just that – wooden boards used for cutting bread, and date all the way back to the beginning of electrical experimentation. (If you’re curious to see them in action, this You-tuber wires up a circuit on a wooden breadboard in this video.) Modern breadboards are plastic tablets that have rows of holes connected underneath with metal clips, as this video[d2.1] illustrates. 
 
