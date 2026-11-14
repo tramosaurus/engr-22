@@ -95,7 +95,7 @@ You can use the mnemonic device to help you remember:
 
 The most significant digit of our resistor value is represented by first band, while the least significant is represented by the second band. We then multiply this value by ten raised to the power of the multiplier band. That means that for a resistor colored orange - blue - brown, the nominal resistance is
 
-    $36 \times 10^1=360 \text{ }\Omega$
+$36 \times 10^1=360 \text{ }\Omega$
 
 Five-band resistors are similar, except that the first three bands represent the three significant digits of the resistor value. The fourth band represents the multiplier. In addition to the values from the above table, the multiplier band can also be gold or silver, which represent 0.1 and 0.01, respectively.
 
