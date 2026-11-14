@@ -21,7 +21,6 @@ While the circuits we’re going to be building in this class are all designed t
 
 Electricity can cause fatal burns or cause vital organs to malfunction. It all depends on how much, how long, and where. In general, a current of 5 mA or less will cause a sensation of shock, but rarely any damage. Larger currents can cause hand muscles to contract. Currents on the order of 100 mA are often fatal if they pass through the body for even a few seconds. The chart below shows the general relationship between the degree of injury and amount of current for a 60-cycle hand-to-foot path of one second's duration of shock.
 
-<div align="center">
 | Current (mA) | Reaction |
 | :---: | --- |
 | 1	| Perception level |
@@ -32,7 +31,6 @@ Electricity can cause fatal burns or cause vital organs to malfunction. It all d
 | 10,000+ | Cardiac arrest, severe burns, and probable death |
 
 <table><caption>Table 1. Effects of a range of electrical current passing through the human body.</table></caption>
-</div>
 
 ### Is it Safe to Touch?
 
@@ -76,7 +74,6 @@ To figure out the resistance value of a four-band resistor, start by finding the
 
 The first three color bands are arranged as follows: the first band, the second band, and the multiplier band. For these three bands, each color represents a different value, which can be found in the chart below. (The final column represents a mnemonic device to help you remember.)
 
-<div align="center">
 | Value | Color | Word |
 | :---: | :---: | :---: |
 | 0 | Black | Black |
@@ -91,7 +88,6 @@ The first three color bands are arranged as follows: the first band, the second 
 | 9 | White | Wonderfully |
 
 <table><caption>Table 2. Resistor color and the corresponding value.</caption></table>
-</div>
 
 You can use the mnemonic device to help you remember: 
 
@@ -105,14 +101,12 @@ $36 \times 10^1=360 \text{ }\Omega$
 
 Five-band resistors are similar, except that the first three bands represent the three significant digits of the resistor value. The fourth band represents the multiplier. In addition to the values from the above table, the multiplier band can also be gold or silver, which represent $0.1$ and $0.01$, respectively.
 
-<div align="center">
 | Value | Color |
 | :---: | :---: |
 | 0.1 | Gold |
 | 0.01 | Silver |
 
 <table></caption>Table 3. Extra multiplier color bands and their corresponding values.</caption></table>
-</div>
 
 ### Resistance Tolerances
 
@@ -165,12 +159,12 @@ Get the software here: Fritzing
 
 ## Breadboard Basics
 
-[![Watch the video on breadboarding basics:
-Breadboard Basics](https://youtu.be/6WReFkfrUIk)](https://youtu.be/6WReFkfrUIk)
+Watch the video on breadboarding basics:
+[How to Use a Breadboard](https://youtu.be/6WReFkfrUIk)
 
 ### How a Breadboard is Constructed
 
-Breadboards are a great tool for prototyping electronics projects, and is a necessary tool for electronics design. The original breadboards were originally just that – wooden boards used for cutting bread, and date all the way back to the beginning of electrical experimentation. (If you’re curious to see them in action, this You-tuber wires up a circuit on a wooden breadboard in this video.) Modern breadboards are plastic tablets that have rows of holes connected underneath with metal clips, as this video[d2.1] illustrates. 
+Breadboards are a great tool for prototyping electronics projects, and is a necessary tool for electronics design. The original breadboards were originally just that – wooden boards used for cutting bread, and date all the way back to the beginning of electrical experimentation. (If you’re curious to see them in action, this You-tuber wires up a circuit on a wooden breadboard in this video.) Modern breadboards are plastic tablets that have rows of holes connected underneath with metal clips.
 
 These boards are great for prototyping and testing new circuits. Components can be placed into the breadboard and pulled out easily, and requires no soldering or other more permanent connections. The figure below shows a picture of the breadboard (left) and a diagram showing how the individual holes are connected with the metal clips.
 
@@ -181,7 +175,7 @@ To connect two components together, you just need to make sure that the two ends
 
 Figure 2. Connecting a wire to a resistor in schematic view (left) and breadboard view (right).
 
-How to Wire Parts in Series
+### How to Wire Parts in Series
 
 In order to wire two parts in series, you’ll want the parts share one node. This means that the two ends you are trying to connect need to share the same 5-pin row. You can also use a wire to bridge between rows to connect the two parts at one end. The following images are there to show you a few different ways you can wire components in series.
 
@@ -191,7 +185,7 @@ In order to wire two parts in series, you’ll want the parts share one node. Th
 
  
 
-How to Wire Parts in Parallel
+### How to Wire Parts in Parallel
 
 In order to wire two parts in parallel, you’ll want the parts to share two nodes, one on either side. The following images are there to show you a few different ways you can wire components in series.
 
@@ -201,7 +195,7 @@ In order to wire two parts in parallel, you’ll want the parts to share two nod
 
  
 
-How to Add Integrated Circuits
+### How to Add Integrated Circuits
 
 Integrated circuits, or ICs for short, are complex circuits built into a tiny, black “chip.” To learn more about the makeup of ICs, you can visit this page. 
 
@@ -210,7 +204,7 @@ ICs can come in all different shapes and sizes, depending on the application. Th
  
 
 
-How to Power the Breadboard
+### How to Power the Breadboard
 
 How to Effectively Use the Power Strips
 
@@ -244,9 +238,9 @@ The breadboard also has four short jumper wires bridging the gaps on the power s
 
  
 
-Complete Activity 3: Build the Circuits
+#### Complete Activity 3: Build the Circuits
 
-Digital Multimeters (DMMs)
+## Digital Multimeters (DMMs)
 
 A DMM is a very important tool for electricians and electrical engineers. Depending on the model and the specifications, a DMM can be used to measure multiple parameters, including voltage, resistance, current, continuity, capacitance, and temperature. 
 
