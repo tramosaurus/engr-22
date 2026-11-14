@@ -22,7 +22,7 @@ While the circuits we’re going to be building in this class are all designed t
 Electricity can cause fatal burns or cause vital organs to malfunction. It all depends on how much, how long, and where. In general, a current of 5 mA or less will cause a sensation of shock, but rarely any damage. Larger currents can cause hand muscles to contract. Currents on the order of 100 mA are often fatal if they pass through the body for even a few seconds. The chart below shows the general relationship between the degree of injury and amount of current for a 60-cycle hand-to-foot path of one second's duration of shock.
 
 | Current (mA) | Reaction |
-| --- | --- |
+| :---: | --- |
 | 1	| Perception level |
 | 5	| Slight shock felt; not painful but disturbing |
 | 6-30 | Painful shock; “let-go” range |
@@ -49,45 +49,53 @@ Disconnect the power source if you smell anything burning. The smell of burning 
 
 #### Complete Activity : Safety Hazards Related to Electricity and Electronics Equipment
 
-Reading Resistor Codes
+## Reading Resistor Codes
 
 You probably realized that it’s hard to identify the different resistor values, but that the colors somehow indicate the resistance. Watch the following video on identifying resistor color bands:
 Identifying Resistor Color Bands
 
-What Are Resistor Codes?
+### What Are Resistor Codes?
 
 If you’ve worked with electronics before, you’ve probably seen the color bands painted on most resistors. These bands help us identify the value of resistance without resorting to using an ohmmeter. There are a lot of websites that will help you identify the resistance such as this one, but we're going to learn how to read them anyway.
 
-Four or Five Bands?
+### Four or Five Bands?
 
 Resistors marked with color bands come in two types: one with four color bands, and one with five color bands. Resistors with five color bands have a smaller tolerance of 1% and use the extra band to specify the value more precisely. We'll be using resistors with four color bands in our lab.
 
-Reading Resistor Values
+### Reading Resistor Values
 
 To figure out the resistance value of a four-band resistor, start by finding the gold or silver band, known as the tolerance band. Rotating the resistor so that the tolerance band is on the right side.
 	
 
- 
-Figure 1. How to orient a resistor to read resistor band colors.
+<figure>
+  <img src="path/to/image.jpg" alt="A descriptive alt text for screen readers">
+  <figcaption>Figure 1. How to orient a resistor to read resistor band colors.</figcaption>
+</figure>
+
 The first three color bands are arranged as follows: the first band, the second band, and the multiplier band. For these three bands, each color represents a different value, which can be found in the chart below. (The final column represents a mnemonic device to help you remember.)
 
-Value	Color	Word
-0	Black	Black
-1	Brown	Birds
-2	Red	Run
-3	Orange	Over
-4	Yellow	Your
-5	Green	Garden
-6	Blue	But
-7	Violet	Vegetables
-8	Gray	Grow
-9	White	Wonderfully
-Table 2. Resistor color and the corresponding value. 
+| Value | Color | Word |
+| :---: | :---: | :---: |
+| 0 | Black | Black |
+| 1 | Brown | Birds |
+| 2 | Red | Run |
+| 3 | Orange | Over |
+| 4 | Yellow | Your |
+| 5 | Green | Garden |
+| 6 | Blue | But |
+| 7 | Violet | Vegetables |
+| 8 | Gray | Grow |
+| 9 | White | Wonderfully |
+
+<table><caption>Table 2. Resistor color and the corresponding value.</caption></table>
+
 You can use the mnemonic device to help you remember: 
-"Black birds run over your garden but vegetables grow wonderfully."
+
+    Black birds run over your garden but vegetables grow wonderfully.
+
 The most significant digit of our resistor value is represented by first band, while the least significant is represented by the second band. We then multiply this value by ten raised to the power of the multiplier band. That means that for a resistor colored orange - blue - brown, the nominal resistance is
 
-36×10^1 Ω=360 Ω
+    $36 \times 10^1=360 \text{ }\Omega$
 
 Five-band resistors are similar, except that the first three bands represent the three significant digits of the resistor value. The fourth band represents the multiplier. In addition to the values from the above table, the multiplier band can also be gold or silver, which represent 0.1 and 0.01, respectively.
 
