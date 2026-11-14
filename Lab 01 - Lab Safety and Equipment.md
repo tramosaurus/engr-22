@@ -119,7 +119,9 @@ Resistors are never manufactured to exact values—it would be too expensive. In
 
 The formula to calculate the minimum and maximum values for a given resistor color code is given below. The true resistance value should fall within this range.
 
-<center>$\text{minimumum value} = \text{nominal value} \times (1-\frac{\text{tolerance, in }\%}{100})$</center>
+<p align="center">
+$\text{minimumum value} = \text{nominal value} \times (1-\frac{\text{tolerance, in }\%}{100})$
+</p>
 
 $\text{minimumum value} = \text{nominal value} \times (1+\frac{\text{tolerance, in }\%}{100})$
 
