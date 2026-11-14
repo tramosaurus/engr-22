@@ -36,18 +36,18 @@ Electricity can cause fatal burns or cause vital organs to malfunction. It all d
 
 Is it okay to touch a wire on our breadboard if it has a voltage potential of 12 V?  It's all dependent on the resistance of the human body. Our skin typically has pretty high resistance, making us pretty resilient towards voltages, but that depends on moisture levels and the integrity of your skin. Generally speaking, 50 V or lower are safe handling levels (some would argue more and some less) for AC and DC voltages.
 
-Lab Rules
+### Lab Rules
 
 During your work on these labs you should follow safe electronics practices and always turn off power to your circuit before building it or modifying the wiring. This will prevent you from “frying” circuit components as well – many components are less tolerant of moderate voltage levels than humans are.
 
-	Never work on a circuit while power is applied. Be sure to disconnect or turn off your power source while you are moving your circuit components around.
-	Do not connect power to a circuit until the circuit is finished. Check your work carefully before you connect or turn on your power source.
-	Disconnect the power source if you smell anything burning. The smell of burning electronics components is very distinct and hard to miss! Turn off your power source the minute you smell it, and inspect your circuit for errors. Be careful! Some of the components may be very hot.
-	Keep your work area dry. Electricity will happily conduct through water, and will also lower your skin's resistivity. No food or drink in the lab!
-	Always use common sense and pay attention to the task you are working on.
-	If at any time you are not sure how to handle a particular situation, ask the instructor for advice.
+- **Never work on a circuit while power is applied.** Be sure to disconnect or turn off your power source while you are moving your circuit components around.
+- **Do not connect power to a circuit until the circuit is finished.** Check your work carefully before you connect or turn on your power source.
+Disconnect the power source if you smell anything burning. The smell of burning electronics components is very distinct and hard to miss! Turn off your power source the minute you smell it, and inspect your circuit for errors. Be careful! Some of the components may be very hot.
+- **Keep your work area dry.** Electricity will happily conduct through water, and will also lower your skin's resistivity. No food or drink in the lab!
+- **Always use common sense and pay attention to the task you are working on.**
+- **If at any time you are not sure how to handle a particular situation, ask the instructor for advice.**
 
-Complete Activity : Safety Hazards Related to Electricity and Electronics Equipment
+#### Complete Activity : Safety Hazards Related to Electricity and Electronics Equipment
 
 Reading Resistor Codes
 
